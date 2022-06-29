@@ -6,7 +6,7 @@ import HeaderSocials from './HeaderSocials.jsx'
 
 const Header = () => {
   return (
-    <header id='home'>
+    <header >
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Leandro Corvalán</h1>
