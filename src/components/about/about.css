@@ -8,7 +8,7 @@
     width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    background: linear-gradient(var(--color-primary), transparent);
     display: grid;
     place-items: center;
 }
@@ -16,7 +16,7 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
+    /* transform: rotate(10deg); */
     transition: var(--transition);
 }
 
@@ -35,8 +35,12 @@
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
-    text-align: center;
     transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .about__card:hover {
@@ -51,6 +55,8 @@
     margin-bottom: 1rem;
 }
 
+
+
 .about__card h5 {
     font-size: 0.95rem;
 }
@@ -62,7 +68,7 @@
 
 .about__content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-white);
 }
 
 
@@ -75,7 +81,7 @@
 
     .about__me {
         width: 50%;
-        margin: 2rem auto 4 rem;
+        margin: 2rem auto 4rem;
     }
 
     .about__content p {

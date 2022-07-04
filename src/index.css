@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap');
 
 * {
     margin: 0;
@@ -11,12 +12,21 @@
 }
 
 :root {
-    --color-bg: #1f1f38;
-    --color-bg-variant: #2c2c6c;
-    --color-primary: #4db5ff;
-    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-black: #001B28;
+    --color-bg-variant: #2F4858;
+    --color-primary: #ff7e5f;
+    --color-primary-variant: #FCB69F;
     --color-white: #fff;
-    --color-light: rgba(255, 255, 255, 0.6);
+    --color-light: #AE7570;
+    --color-primary-transparent: #1413;
+    --color-primary-transparent2: #bda69f57;
+    
+    --linear-gradient-bg: linear-gradient( to right, #ff7e5f, #feb47b);
+    /* --linear-gradient: linear-gradient(#ff7e5f,#feb47b); */
+    --linear-gradient: linear-gradient(#1413,transparent);
+    --linear-gradient2: linear-gradient(to bottom, rgba(183, 186, 182, 0.763), #1413);
+    --linear-gradient3: linear-gradient(to bottom, #bda69fd4, #1413);
+    --linear-gradient4: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
 
     --transition: all 400ms ease;
 
@@ -29,16 +39,17 @@ html {
     scroll-behavior: smooth;
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
    display: none; 
-}
+} */
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
+    /* font-family: 'Inter', sans-serif; */
+    background: var(--color-black);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+    /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ==================== GENERAL STYLES ==================== */
@@ -48,12 +59,16 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2 {
+    font-weight: 600;
+}
+
+h3, h4, h5 {
     font-weight: 500;
 }
 
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
 
 section {
@@ -96,13 +111,17 @@ a:hover {
 
 .btn:hover {
     background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
+    color: var(--color-black);
 }
 
 .btn-primary {
     background: var(--color-primary);
-    color: var(--color-bg);
+    color: var(--color-black);
+}
+
+.btn:hover.btn-primary {
+    background: var(--color-black);
+    color: var(--color-white);
 }
 
 img {

@@ -31,8 +31,8 @@ const Contact = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>lecorvalan2@gmail.com</h5>
-            <a href="mailto:lecorvalan2@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
+            <h5>leandrocorvalandev@gmail.com</h5>
+            <a href="mailto:leandrocorvalandev@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
           </article>
           <article className="contact__option">
             <BsTelegram className='contact__option-icon'/>

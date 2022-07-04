@@ -1,13 +1,12 @@
 import React from 'react'
 import './footer.css'
 import {FaGithub} from 'react-icons/fa'
-import {FiInstagram} from 'react-icons/fi'
 import {BsLinkedin} from 'react-icons/bs'
 
 const Footer = () => {
   return (
     <footer>
-      <a href="/#" className='footer__logo'>Leancorv</a>
+      <a href="/#" className='footer__logo'>Leandro Corvalán</a>
       <ul className='permalinks'>
         <li><a href="/#">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -21,11 +20,10 @@ const Footer = () => {
       <div className="footer__socials">
         <a href="https://twitter.com"><BsLinkedin /></a>
         <a href="https://github.com/lecov/"><FaGithub /></a>
-        <a href="https://instagram.com"><FiInstagram /></a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; LeanDev. All rights reserved</small>
+        <small>&copy; Leandro Corvalán. All rights reserved</small>
       </div>
     </footer>
   )
