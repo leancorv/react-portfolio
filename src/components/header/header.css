@@ -24,6 +24,9 @@ header {
     display: flex;
     flex-direction: column;
 }
+.main__text h1{
+    font-size: 2.2rem;
+}
 /* ========== CTA ========= */
 .cta {
     margin-top: 2.5rem;
