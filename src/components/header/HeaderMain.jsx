@@ -7,8 +7,8 @@ const Header__Main = () => {
     words: [
       "Soy Leandro Corvalán",
       "Software Developer",
-      "Que ama programar",
-      "Y los memes",
+      "Que ama programar📱",
+      "Y los memes⚡",
     ],
     loop: true,
     delaySpeed: 2000,
