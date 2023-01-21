@@ -67,7 +67,8 @@
 }
 
 .about__content p {
-    margin: 2rem 0 2.6rem;
+    font-size: 1.3rem;
+    margin: 1rem 0 1.2rem;
     color: var(--color-white);
 }
 

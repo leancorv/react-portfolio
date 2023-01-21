@@ -2,15 +2,15 @@ import React from 'react'
 import './experience.css'
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3, IoLogoJavascript, IoLogoVue} from 'react-icons/io5'
-import {FaBootstrap, FaReact, FaNodeJs} from 'react-icons/fa'
-import {SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiPython, SiDjango} from 'react-icons/si'
-import {TbBrandReactNative} from 'react-icons/tb'
+import { FaReact, FaNodeJs} from 'react-icons/fa'
+import {SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiPython, SiDjango, SiFirebase, SiTypescript} from 'react-icons/si'
+import {TbBrandReactNative, TbBrandNextjs} from 'react-icons/tb'
 
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Algunas de las</h5>
+      <h2>Tecnologias que uso</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -38,9 +38,16 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <FaBootstrap className='experience__details-icons' />
+              <FaReact className='experience__details-icons' />
               <div>
-                <h4>Bootstrap</h4>
+                <h4>React</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className="experience__details">
+              <TbBrandNextjs className='experience__details-icons' />
+              <div>
+                <h4>NextJS</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
@@ -55,13 +62,6 @@ const Experience = () => {
               <IoLogoVue className='experience__details-icons' />
               <div>
                 <h4>Vue</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className="experience__details">
-              <FaReact className='experience__details-icons' />
-              <div>
-                <h4>React</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
@@ -112,6 +112,18 @@ const Experience = () => {
               <SiDjango className='experience__details-icons' />
               <div>
                 <h4>Django</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiFirebase className='experience__details-icons' />
+              <div>
+                <h4>Firebase</h4>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTypescript className='experience__details-icons' />
+              <div>
+                <h4>Typescript</h4>
               </div>
             </article>
           </div>

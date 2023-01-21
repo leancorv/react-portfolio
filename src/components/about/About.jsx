@@ -1,15 +1,15 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about-3.png'
-import {FaAward} from 'react-icons/fa'
+import {BiWorld} from 'react-icons/bi'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>Un poco</h5>
+      <h2>Sobre mi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -19,10 +19,10 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <div className="about__cards">
+          {/* <div className="about__cards">
             <article className="about__card">
-              <FaAward className='about__icon'/>
-              <small>Based in</small>
+              <BiWorld className='about__icon'/>
+              <small>Buenos Aires</small>
               <h5>Argentina</h5>
             </article>
 
@@ -37,13 +37,14 @@ const About = () => {
               <small>80+ Completed</small>
               <h5>Proyects</h5>
             </article>
-          </div>
+          </div> */}
 
             <p>
-              I'm Leandro, a front-end developer based in Argentina and I'm 23 years old. I love learning new technologies and creating things. I enjoy work in usefull and escalable proyects that people could enjoy. 
+              Hola! Soy Leandro, un desarrollador apasionado al que le encanta ser parte de proyectos y aprender nuevas tecnologias. Soy fan de aportar mi mejor esfuerzo creando y desarrollando. 
+              Creo fielmente que todo tiene solución y me encanta pasar tiempo buscándolos. 
             </p>
 
-            <a href="#contact" className='btn btn-primary'>Let's talk</a>
+            <a href="#contact" className='btn btn-primary'>Hablemos!</a>
         </div>
       </div>
     </section>
