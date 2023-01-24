@@ -1,5 +1,6 @@
 nav { 
-    background: rgba(0, 0, 0, 0.3);
+    background: #ffffff08;
+    /* background: rgba(0, 0, 0, 0.3); */
     /* background: var(--color-primary-transparent); */
     width: max-content;
     display: block;
