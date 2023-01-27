@@ -32,19 +32,19 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>leancorv@gmail.com</h5>
-            <a href="mailto:leandrocorvalandev@gmail.com" target="_blank" rel="noreferrer">Enviar mensaje</a>
+            <a href="mailto:leancorv@gmail.com" target="_blank" rel="noreferrer">Enviar mensaje</a>
           </article>
           <article className="contact__option">
             <BsTelegram className='contact__option-icon'/>
             <h4>Telegram</h4>
             <h5>@leancorv</h5>
-            <a href="https://t.me/leandrocorv" target="_blank" rel="noreferrer">Enviar mensaje</a>
+            <a href="https://t.me/leancorv" target="_blank" rel="noreferrer">Enviar mensaje</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
             <h4>Linkedin</h4>
             <h5>@leancorv</h5>
-            <a href="https://t.me/leandrocorv" target="_blank" rel="noreferrer">Enviar mensaje</a>
+            <a href="https://www.linkedin.com/in/leancorv/" target="_blank" rel="noreferrer">Enviar mensaje</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
