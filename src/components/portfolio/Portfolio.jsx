@@ -24,7 +24,7 @@ const data = [
     title: 'Spotify Clone',
     desc: 'Spotify Clone usando Next.js, Spotify API, NextAuth, Tailwind CSS, Recoil',
     github: 'https://github.com/lecov/nextjs-spotify',
-    demo: 'https://dribble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    demo: 'https://nextjs-spotify-3st5.vercel.app/'
   },
   {
     id: 3,
