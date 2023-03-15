@@ -16,7 +16,7 @@ const data = [
     title: 'TWO - Streaming Movies Website',
     desc: 'Streaming Movies UI, usando HTML, CSS y JavaScript',
     github: 'https://github.com/lecov/proyecto-two',
-    demo: 'https://lecov.github.io/'
+    demo: 'https://leancorv.github.io/'
   },
   {
     id: 2,
